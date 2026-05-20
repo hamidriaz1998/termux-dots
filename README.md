@@ -1,10 +1,10 @@
-# myTermux
+# termux-dots
 
 <p align="center">Personal configuration for my favorite Termux</p>
 
 <p align="center">
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-GPL-blue.svg"></a>
-  <a href="https://github.com/mayTermux/awesomeshot/releases"><img src="https://img.shields.io/github/release/mayTermux/myTermux.svg"></a>
+  <a href="https://github.com/hamidriaz1998/termux-dots/releases"><img src="https://img.shields.io/github/release/hamidriaz1998/termux-dots.svg"></a>
 </p>
 
 ## Video Installation
@@ -13,7 +13,7 @@
 
 [![myTermux Thumbnail](https://user-images.githubusercontent.com/64394320/170211137-554dfd78-8424-4699-876c-7483b45de068.png)](https://www.youtube.com/watch?v=sYkNxK_44Zg "myTermux - Installation")
 
-## Installation Dependencies
+## Prerequisites
 
 > **Attention!**
 >
@@ -35,18 +35,18 @@ pkg update && pkg upgrade
 pkg i -y git bc
 ```
 
-## Installation myTermux
+## Installation
 
 ### Clone Repository
 
 ```bash
-git clone --depth=1 https://github.com/mayTermux/myTermux.git
+git clone --depth=1 https://github.com/hamidriaz1998/termux-dots.git
 ```
 
 ### Run Installer
 
 ```bash
-cd myTermux
+cd termux-dots
 export COLUMNS LINES
 ./install.sh
 ```
