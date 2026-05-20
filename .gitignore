@@ -1,0 +1,33 @@
+# Backups
+*.backup
+*.backup.*
+
+# State files
+.mytermux-state
+
+# Logs
+*.log
+.config/mytermux/fish/used.log
+.config/mytermux/fonts/used.log
+.config/mytermux/colorscheme/used.log
+
+# Generated / cache
+.config/fish/fish_plugins
+.config/fish/functions/
+.config/fish/completions/
+.config/fish/conf.d/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+
+# NvChad (cloned separately)
+NvChad/
+
+# tmux-themepack (cloned separately)
+.tmux-themepack/
