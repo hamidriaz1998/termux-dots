@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 set -uo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-source "${SCRIPT_DIR}/stat.sh"
-source "${SCRIPT_DIR}/cursor.sh"
+source "${SCRIPT_DIR}/helper/stat.sh"
+source "${SCRIPT_DIR}/helper/cursor.sh"
 
 FISHER_PLUGINS=(
   IlanCosman/tide
